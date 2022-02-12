@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author"
+    content="">
+<meta name="description"
+    content="Hugo Quick Start github.com/gohugoio/hugo
+Quick Start
+Install Hugo Binary (Cross-platform) You don&amp;rsquo;t need to install Go to enjoy Hugo if you grab a precompiled binary!
+Git
+git clone https://github.com/gohugoio/hugo.git cd hugo go install --tags extended Go
+go get github.com/gohugoio/hugo cd hugo go install --tags extended There are two versions of Hugo,remove --tags extended to install the default version if you don&amp;rsquo;t want/need Sass/SCSS support.
+If you see this exec: &amp;quot;gcc&amp;quot;: executable file not found in %PATH% warning,install MinGW and add bin directory of gcc to Windows Environment Variables." />
+<meta name="keywords" content="go golang english" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://yuyixing.github.io/golang-posts/my-first-golang-posting/" />
+
+
+<title>
+    
+    How to use Hugo to build a Fast and Flexible Static Blog :: Yuyixing&#39;s Blog  — A Blog For Golang And English Study
+    
+</title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.043910e9bd41688aac2a27384281da38ba59cd40d8d50ba5d57d2988083bdd0d.css">
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="theme-color" content="#252627"><meta itemprop="name" content="How to use Hugo to build a Fast and Flexible Static Blog">
+<meta itemprop="description" content="Hugo Quick Start github.com/gohugoio/hugo
+Quick Start
+Install Hugo Binary (Cross-platform) You don&rsquo;t need to install Go to enjoy Hugo if you grab a precompiled binary!
+Git
+git clone https://github.com/gohugoio/hugo.git cd hugo go install --tags extended Go
+go get github.com/gohugoio/hugo cd hugo go install --tags extended There are two versions of Hugo,remove --tags extended to install the default version if you don&rsquo;t want/need Sass/SCSS support.
+If you see this exec: &quot;gcc&quot;: executable file not found in %PATH% warning,install MinGW and add bin directory of gcc to Windows Environment Variables.">
+<meta itemprop="datePublished" content="2019-07-14T12:49:51+08:00" />
+<meta itemprop="dateModified" content="2019-07-14T12:49:51+08:00" />
+<meta itemprop="wordCount" content="554">
+<meta itemprop="image" content="https://yuyixing.github.io"/>
+
+
+
+<meta itemprop="keywords" content="go,hugo," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://yuyixing.github.io"/>
+
+<meta name="twitter:title" content="How to use Hugo to build a Fast and Flexible Static Blog"/>
+<meta name="twitter:description" content="Hugo Quick Start github.com/gohugoio/hugo
+Quick Start
+Install Hugo Binary (Cross-platform) You don&rsquo;t need to install Go to enjoy Hugo if you grab a precompiled binary!
+Git
+git clone https://github.com/gohugoio/hugo.git cd hugo go install --tags extended Go
+go get github.com/gohugoio/hugo cd hugo go install --tags extended There are two versions of Hugo,remove --tags extended to install the default version if you don&rsquo;t want/need Sass/SCSS support.
+If you see this exec: &quot;gcc&quot;: executable file not found in %PATH% warning,install MinGW and add bin directory of gcc to Windows Environment Variables."/>
+
+
+
+
+<meta property="article:published_time" content="2019-07-14 12:49:51 &#43;0800 &#43;0800" />
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">hello there</span>
+            <span class="logo__cursor"></span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://yuyixing.github.io/about-me">About Me</a></li><li><a href="https://yuyixing.github.io/english-posts">English Posts</a></li><li><a href="https://yuyixing.github.io/golang-posts">Golang Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://yuyixing.github.io/golang-posts/my-first-golang-posting/">How to use Hugo to build a Fast and Flexible Static Blog</a></h2>
+
+            
+
+            <div class="post-content">
+                <h2 id="hugo-quick-start">Hugo Quick Start</h2>
+<p><a href="https://github.com/gohugoio/hugo">github.com/gohugoio/hugo</a><br>
+<a href="https://gohugo.io/getting-started/quick-start/">Quick Start</a></p>
+<h3 id="install-hugo">Install Hugo</h3>
+<p><a href="https://github.com/gohugoio/hugo/releases">Binary (Cross-platform)</a> <br>
+You don&rsquo;t need to install Go to enjoy Hugo if you grab a precompiled binary!</p>
+<p>Git</p>
+<pre><code>git clone https://github.com/gohugoio/hugo.git
+cd hugo
+go install --tags extended
+</code></pre><p>Go</p>
+<pre><code>go get github.com/gohugoio/hugo
+cd hugo
+go install --tags extended
+</code></pre><p>There are two versions of Hugo,<strong>remove</strong> <code>--tags extended</code> to install the default version if you don&rsquo;t want/need Sass/SCSS support.<br>
+If you see this <code>exec: &quot;gcc&quot;: executable file not found in %PATH%</code> warning,install <a href="https://nuwen.net/files/mingw/mingw-16.1-without-git.exe">MinGW</a> and add <strong>bin</strong> directory of gcc to <strong>Windows Environment Variables</strong>.</p>
+<h3 id="get-dependencies">Get dependencies</h3>
+<p>Because of network issues,I can&rsquo;t use <code>go get</code> command to get <code>golang.org/...</code> dependencies.But Google create a <a href="https://github.com/golang">mirror repo</a> on github,you can use Git to get these dependencies,such like:</p>
+<pre><code>git clone https://github.com/golang/net.git
+git clone https://github.com/golang/image.git
+git clone https://github.com/golang/sync.git
+git clone https://github.com/golang/sys.git
+git clone https://github.com/golang/text.git
+</code></pre><p><strong>Notice</strong>:you must manually git clone the repository to <code>$GOPATH/src/golang.org/x/</code> directory.</p>
+<h3 id="create-your-blogwebsite">Create your Blog/Website</h3>
+<p>Create a New Site.</p>
+<pre><code>hugo new site yourblogname
+</code></pre><p>Add a Content.</p>
+<pre><code>cd your/blog/root/path
+hugo new posts/my-first-post.md
+</code></pre><p>Get a Theme with Git,you must delete themes/.git directory after clone finished.</p>
+<pre><code>cd your/blog/root/path
+git clone https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
+</code></pre><p>Copy the code below to config.toml,and you can configure it whatever you like.</p>
+<pre><code>baseurl = &quot;/&quot;
+languageCode = &quot;en-us&quot;
+theme = &quot;hello-friend-ng&quot;
+
+[params]
+  dateform        = &quot;Jan 2, 2006&quot;
+  dateformShort   = &quot;Jan 2&quot;
+  dateformNum     = &quot;2006-01-02&quot;
+  dateformNumTime = &quot;2006-01-02 15:04 -0700&quot;
+
+  # Metadata mostly used in document's head
+  description = &quot;Homepage and blog by Djordje Atlialp&quot;
+  keywords = &quot;homepage, blog, science, informatics, development, programming&quot;
+  images = [&quot;&quot;]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = &quot;posts&quot;
+  # Default theme &quot;light&quot; or &quot;dark&quot;
+  defaultTheme = &quot;dark&quot;
+
+[languages]
+  [languages.en]
+    title = &quot;Hello Friend NG&quot;
+    subtitle = &quot;A simple theme for Hugo&quot;
+    keywords = &quot;&quot;
+    copyright = &quot;&quot;
+    readOtherPosts = &quot;Read other posts&quot;
+
+    [languages.en.params.logo]
+      logoText = &quot;hello friend ng&quot;
+      logoHomeLink = &quot;/&quot;
+    # or
+    #
+    # path = &quot;/img/your-example-logo.svg&quot;
+    # alt = &quot;Your example logo alt text&quot;
+
+	# You can create a language based menu
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = &quot;about&quot;
+        name = &quot;About&quot;
+        url = &quot;/about&quot;
+      [[languages.en.menu.main]]
+        identifier = &quot;showcase&quot;
+        name = &quot;Showcase&quot;
+        url = &quot;/showcase&quot;
+
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = &quot;about&quot;
+    name       = &quot;About&quot;
+    url        = &quot;/about&quot;
+  [[menu.main]]
+    identifier = &quot;blog&quot;
+    name       = &quot;Blog&quot;
+    url        = &quot;/posts&quot;
+</code></pre><p>Start the Hugo server with a theme,and generate the drafts.</p>
+<pre><code>hugo server -t=yourtheme --buildDrats=true
+</code></pre><p>Generate the static pages for deploy.</p>
+<pre><code>hugo
+</code></pre><h2 id="auto-deployment-with-wercker">Auto Deployment with Wercker</h2>
+<p><a href="https://gohugo.io/hosting-and-deployment/deployment-with-wercker/">Wercker Docs</a><br>
+<a href="https://app.wercker.com/">Wercker Official Website</a></p>
+<p><strong>Notice</strong>:You need register wercker account via a VPN probably,If you see the alert &lsquo;Please cofirm you are not a robot&rsquo;.</p>
+<p>Wercker is a CI tool via configure wercker.yml.Such like</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#66d9ef">box</span>: debian
+<span style="color:#66d9ef">build</span>:
+  <span style="color:#66d9ef">steps</span>:
+    - <span style="color:#66d9ef">arjen/hugo-build</span>:
+		<span style="color:#66d9ef">theme:            hello-friend-ng		# optional, default</span>: <span style="color:#e6db74">&#34;&#34;</span>
+		<span style="color:#66d9ef">flags:            --buildDrafts=true	# optional, default</span>: <span style="color:#e6db74">&#34;&#34;</span>
+		<span style="color:#75715e"># the two variables above is enough</span>
+		<span style="color:#66d9ef">version:          &lt;string&gt; # optional, default</span>: <span style="color:#e6db74">&#34;0.55.6&#34;</span>
+		<span style="color:#66d9ef">config:           &lt;string&gt; # optional, default</span>: <span style="color:#e6db74">&#34;&#34;</span>
+		<span style="color:#66d9ef">basedir:          &lt;string&gt; # optional, default</span>: <span style="color:#e6db74">&#34;&#34;</span>
+		<span style="color:#66d9ef">dev_flags:        &lt;string&gt; # optional, default</span>: <span style="color:#e6db74">&#34;&#34;</span>
+		<span style="color:#66d9ef">dev_branches:     &lt;string&gt; # optional, default</span>: <span style="color:#e6db74">&#34;&#34;</span>
+		<span style="color:#66d9ef">prod_branches:    &lt;string&gt; # optional, default</span>: <span style="color:#e6db74">&#34;&#34;</span>
+		<span style="color:#66d9ef">force_install:    &lt;string&gt; # optional, default</span>: <span style="color:#e6db74">&#34;false&#34;</span>
+		<span style="color:#66d9ef">install_pygments: &lt;string&gt; # optional, default</span>: <span style="color:#e6db74">&#34;false&#34;</span>
+		<span style="color:#66d9ef">clean_before:     &lt;string&gt; # optional, default</span>: <span style="color:#e6db74">&#34;true&#34;</span>
+<span style="color:#66d9ef">deploy</span>:
+  <span style="color:#66d9ef">steps</span>:
+    - <span style="color:#66d9ef">install-packages</span>:
+        <span style="color:#66d9ef">packages</span>: git ssh-client
+    - <span style="color:#66d9ef">lukevivier/gh-pages@0.2.1</span>:
+        <span style="color:#66d9ef">token</span>: $GIT_TOKEN
+        <span style="color:#66d9ef">domain</span>: your.domain
+        <span style="color:#66d9ef">basedir</span>: public
+        <span style="color:#66d9ef">repo</span>: yourgithubaccountname/your.github.repo
+</code></pre></div><p>The <code>$GIT_TOKEN</code> is GitHub personal access tokens,configure in Application environment variables for privacy protection.
+Add new pipeline named <code>deploy</code> with <code>Hook type:Default</code> after <code>build</code>.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+  				<p>
+  					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://yuyixing.github.io/tags/go">go</a></span><span class="tag"><a href="https://yuyixing.github.io/tags/hugo">hugo</a></span>
+  				</p>
+  			</div>
+
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2022</span>
+            
+            <span>yuyixing</span>
+            <span> <a href="https://yuyixing.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">rhazdon</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.4c3fb12a087ceed4a52cb5d57068a9795c7069617a01ca70f788052ad66e1791779e6c72686e1dc0ca13dc03b0203204b6566bb0dd1ee80de2b7ff4d8fe53db2.js" integrity="sha512-TD&#43;xKgh87tSlLLXVcGipeVxwaWF6Acpw94gFKtZuF5F3nmxyaG4dwMoT3AOwIDIEtlZrsN0e6A3it/9Nj&#43;U9sg=="></script>
+
+
+
+    </body>
+</html>
